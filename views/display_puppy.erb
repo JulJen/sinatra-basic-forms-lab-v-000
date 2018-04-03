@@ -5,17 +5,9 @@
     <title>Puppy Adoption</title>
   </head>
   <body>
-    <h1>Puppy Listings</h1>
-    <form action="/create" method="post">
-      <p>Name: <input type="text" name="name"></p>
-      <p>Breed: <input type="text" name="breed"></p>
-      <p>Age: <input type="text" name="age"></p>
-
-      <!-- <label for="breed">Breed:</label>
-      <input type="text" name="breed"><br>
-      <label for="age">Age:</label>
-      <input type="text" name="age"><br> -->
-      <button type="submit" value="submit">Submit</button>
-    </form>
+    <h1>Puppy Search Results</h1>
+      <p>Name: <%= @new_pup.name %></p>
+      <p>Breed: <%= @new_pup.breed %></p>
+      <p>Age: <%= @new_pup.age %></p>
   </body>
 </html>
