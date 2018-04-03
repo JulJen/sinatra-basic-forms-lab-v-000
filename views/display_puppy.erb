@@ -2,17 +2,20 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>Puppy Adoption</title>
   </head>
   <body>
-    <h1>All about Puppies!</h1>
+    <h1>Puppy Listings</h1>
+    <form action="/create" method="post">
+      <p>Name: <input type="text" name="name"></p>
+      <p>Breed: <input type="text" name="breed"></p>
+      <p>Age: <input type="text" name="age"></p>
 
-    <form method="post" action="/new">
-      <p>Click Here To List A Puppy</p>
-      <textarea name="to have_link"></textarea>
-      <br>
+      <!-- <label for="breed">Breed:</label>
+      <input type="text" name="breed"><br>
+      <label for="age">Age:</label>
+      <input type="text" name="age"><br> -->
       <button type="submit" value="submit">Submit</button>
     </form>
-
   </body>
 </html>
